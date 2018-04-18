@@ -2,7 +2,7 @@
 ## Description
 This project is a website that is more involved than past projects and requires thorough planning. Project cards are important, as they articulate the plan. The site user is a movie producer who needs to decide if a movie can be made within a given budget. The producer chooses elements and then finds out if the budget will accommodate those elements.
 
-[View assignment here](https://github.com/aliciazaludova/movie-maker)
+[View assignment here](https://github.com/nss-nightclass-projects/exercise-vault/blob/master/movie-maker.md)
 
 ### Technologies Used
 - HTML5, CSS, JavaScript

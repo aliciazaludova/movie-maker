@@ -1,0 +1,84 @@
+{
+  "elements": [
+    {
+      "id": "element0",
+      "name": "Tinky Winky",
+      "categoryId": "category1"
+    },
+    {
+      "id": "element1",
+      "name": "Dipsy",
+      "categoryId": "category1"
+    },
+    {
+      "id": "element2",
+      "name": "Laa-Laa",
+      "categoryId": "category1"
+    },
+    {
+      "id": "element3",
+      "name": "Po",
+      "categoryId": "category1"
+    },
+    {
+      "id": "element4",
+      "name": "Sun Baby",
+      "categoryId": "category2"
+    },
+    {
+      "id": "element5",
+      "name": "The Bear",
+      "categoryId": "category2"
+    },
+    {
+      "id": "element6",
+      "name": "Snakes",
+      "categoryId": "category2"
+    },
+    {
+      "id": "element7",
+      "name": "Butterflies",
+      "categoryId": "category2"
+    },
+    {
+      "id": "element8",
+      "name": "Farm in Wimpstone, Warwickshire",
+      "categoryId": "category3"
+    },
+    {
+      "id": "element9",
+      "name": "Pond in Wimpstone, Warwickshire",
+      "categoryId": "category3"
+    },
+    {
+      "id": "element10",
+      "name": "Field in Wimpstone, Warwickshire",
+      "categoryId": "category3"
+    },
+    {
+      "id": "element11",
+      "name": "Woods in Wimpstone, Warwickshire",
+      "categoryId": "category3"
+    },
+    {
+      "id": "element12",
+      "name": "Animated Elephant",
+      "categoryId": "category4"
+    },
+    {
+      "id": "element13",
+      "name": "Model of Alien Ship",
+      "categoryId": "category4"
+    },
+    {
+      "id": "element14",
+      "name": "Matte Painting of Outer Space",
+      "categoryId": "category4"
+    },
+    {
+      "id": "element15",
+      "name": "Composit of Wild Lion on Real Meadow",
+      "categoryId": "category4"
+    }
+  ]
+}
