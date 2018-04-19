@@ -15,6 +15,7 @@ const errorFunction = function () {
   console.error('i be broke');
 };
 
+// require it in main.js
 const initializer = () => {
   loadCategories(whenCategoriesLoad, errorFunction);
   loadElements(whenElementsLoad, errorFunction);
