@@ -9,10 +9,30 @@
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  
-  <h1>Movie Maker</h1>
+  <header>
+    <div class="row">
 
-  <div id="categories"></div>
+      <div class="col-md-7">
+       <h1>Movie Maker</h1>
+      </div> 
+
+      <div class="budget col-md-5">
+        <input id="budget-input" placeholder="My budget is...">
+        <button id="budget-btn">Update Budget</button>
+      </div>
+
+    </div>  <!--END ROW-->
+  </header>
+
+<main>
+  
+  <div class="col-med-7" id="categories"></div>
+  <div class="col-med-7" id="elements"></div>
+</main>
+
+<aside>
+  <div class="col-med-5">Budget remaining</div>
+</aside>
 
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"

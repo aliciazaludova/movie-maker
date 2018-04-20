@@ -1,16 +1,18 @@
 const loadCategories = require('./xhr-categories');
 const loadElements = require('./xhr-elements');
-const printCategoriesToDom = require('./dom-main');
+const domMain = require('./dom-main');
 
 const whenElementsLoad = function () {
   const elementsData = JSON.parse(this.responseText).elements;
   console.log(elementsData);
+  domMain.printElementsToDom(elementsData);
 };
 
 const whenCategoriesLoad = function () {
   const categoriesData = JSON.parse(this.responseText).categories;
   console.log(categoriesData);
-  printCategoriesToDom(categoriesData);
+  domMain.printCategoriesToDom(categoriesData);
+  console.log(categoriesData);
 };
 
 const errorFunction = function () {
