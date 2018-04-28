@@ -1,3 +1,21 @@
 body {
   background-color: rgb(248, 116, 64);
 }
+
+.budget {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.progress-header {
+  margin-left: 20%;
+}
+
+.right-side {
+  border: 2px inset black;
+}
