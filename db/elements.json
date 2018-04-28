@@ -3,97 +3,97 @@
     {
       "id": "element0",
       "name": "Tinky Winky",
-      "categoryId": "category1",
+      "categoryid": "category1",
       "cost": 1000
     },
     {
       "id": "element1",
       "name": "Dipsy",
-      "categoryId": "category1",
+      "categoryid": "category1",
       "cost": 1000
     },
     {
       "id": "element2",
       "name": "Laa-Laa",
-      "categoryId": "category1",
+      "categoryid": "category1",
       "cost": 1000
     },
     {
       "id": "element3",
       "name": "Po",
-      "categoryId": "category1",
+      "categoryid": "category1",
       "cost": 1000
     },
     {
       "id": "element4",
       "name": "Sun Baby",
-      "categoryId": "category2",
+      "categoryid": "category2",
       "cost": 1000
     },
     {
       "id": "element5",
       "name": "The Bear",
-      "categoryId": "category2",
+      "categoryid": "category2",
       "cost": 1000
     },
     {
       "id": "element6",
       "name": "Snakes",
-      "categoryId": "category2",
+      "categoryid": "category2",
       "cost": 1000
     },
     {
       "id": "element7",
       "name": "Butterflies",
-      "categoryId": "category2",
+      "categoryid": "category2",
       "cost": 1000
     },
     {
       "id": "element8",
       "name": "Farm in Wimpstone, Warwickshire",
-      "categoryId": "category3",
+      "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element9",
       "name": "Pond in Wimpstone, Warwickshire",
-      "categoryId": "category3",
+      "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element10",
       "name": "Field in Wimpstone, Warwickshire",
-      "categoryId": "category3",
+      "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element11",
       "name": "Woods in Wimpstone, Warwickshire",
-      "categoryId": "category3",
+      "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element12",
       "name": "Animated Elephant",
-      "categoryId": "category4",
+      "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element13",
       "name": "Model of Alien Ship",
-      "categoryId": "category4",
+      "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element14",
       "name": "Matte Painting of Outer Space",
-      "categoryId": "category4",
+      "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element15",
       "name": "Composite of Wild Lion on Real Meadow",
-      "categoryId": "category4",
+      "categoryid": "category4",
       "cost": 1000
     }
   ]
