@@ -1,4 +1,13 @@
 # movie-maker
+1. setup
+2. create json files
+3. create xhr calls for the json files
+4. data-gatekeeper
+  - called xhr-categories file to use xhr request function
+  - created functions for success + error load
+  - created initializer function to call xhr function passing through the success and error functions
+  - export initializer
+5. main.js file -- require data-gatekeeper + call initializer
 ## Description
 This project is a website that is more involved than past projects and requires thorough planning. Project cards are important, as they articulate the plan. The site user is a movie producer who needs to decide if a movie can be made within a given budget. The producer chooses elements and then finds out if the budget will accommodate those elements.
 
