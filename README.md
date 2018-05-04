@@ -8,6 +8,8 @@
   - created initializer function to call xhr function passing through the success and error functions
   - export initializer
 5. main.js file -- require data-gatekeeper + call initializer
+6. console.log and see that categories are printing there
+7. QUESTION: i see it printing and am wondering again what parse does. it appears to be an object, just like it is in the json file.
 ## Description
 This project is a website that is more involved than past projects and requires thorough planning. Project cards are important, as they articulate the plan. The site user is a movie producer who needs to decide if a movie can be made within a given budget. The producer chooses elements and then finds out if the budget will accommodate those elements.
 

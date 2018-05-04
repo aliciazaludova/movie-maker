@@ -14,7 +14,7 @@ const ifLoadFails = function () {
 };
 
 const initializer = () => {
-  callCategories.callCategories(whenCategoriesLoad, ifLoadFails);
+  callCategories(whenCategoriesLoad, ifLoadFails);
 };
 
 module.exports = {
