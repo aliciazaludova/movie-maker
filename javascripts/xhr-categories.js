@@ -1,9 +1,9 @@
-const loadCategories = (loadFunction, errorFunction) => {
+const callCategories = (successFunction, errorFunction) => {
   const myRequest = new XMLHttpRequest();
-  myRequest.addEventListener('load', loadFunction);
+  myRequest.addEventListener('load', successFunction);
   myRequest.addEventListener('error', errorFunction);
   myRequest.open('GET', '../db/categories.json');
   myRequest.send();
 };
 
-module.exports = loadCategories;
+module.exports = callCategories;
