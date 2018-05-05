@@ -1,3 +1,21 @@
 body {
-  background-color: hotpink;
+  background: url(http://timothykurek.com/wp-content/uploads/2017/10/teletubbies-bdsgiaitri-on-teletubbies-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(255, 247, 0);
+}
+
+.check-box {
+  width: 20px;
+  height: 20px;
+}
+
+.element-label {
+  margin-left: 10px;
+  display: inline;
 }

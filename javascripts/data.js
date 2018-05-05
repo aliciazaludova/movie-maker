@@ -1,7 +1,7 @@
 let categories = [];
 let elements = [];
 
-// functions to set into arrays
+// function to set parsed json into array
 const setCategories = (categoriesArray) => {
   categories = categoriesArray;
 };

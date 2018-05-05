@@ -50,25 +50,25 @@
     },
     {
       "id": "element8",
-      "name": "Farm in Wimpstone, Warwickshire",
+      "name": "Farm",
       "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element9",
-      "name": "Pond in Wimpstone, Warwickshire",
+      "name": "Pond",
       "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element10",
-      "name": "Field in Wimpstone, Warwickshire",
+      "name": "Field",
       "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element11",
-      "name": "Woods in Wimpstone, Warwickshire",
+      "name": "Woods",
       "categoryid": "category3",
       "cost": 1000
     },
