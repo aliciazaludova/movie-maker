@@ -1,12 +1,18 @@
-const callCategories = require('./xhr-categories');
+const loadCategories = require('./xhr-categories');
+const loadElements = require('./xhr-elements');
 
-// REQUIRED THE FILE XHR-CATEGORIES AS IT'S THE XHR CALL FUNCTION
-// BELOW WRITE THE FUNCTIONS THAT WILL BE THE ARGUMENTS PASSED THROUGH WHEN CALLED.
-// CALLED IN THE INITIALIZER FUNCTION BELOW
+// required the files xhr-categories and xhr-elements as they are parsed below
+// the functions below are the arguments passed through the calls for the xhr functions
+// ultimately, load and fail functions are called in initializer
 
 const whenCategoriesLoad = function () {
   const categoryData = JSON.parse(this.responseText).categories;
   console.log(categoryData);
+};
+
+const whenElementsLoad = function () {
+  const elementsData = JSON.parse(this.responseText).elements;
+  console.log(elementsData);
 };
 
 const ifLoadFails = function () {
@@ -14,7 +20,8 @@ const ifLoadFails = function () {
 };
 
 const initializer = () => {
-  callCategories(whenCategoriesLoad, ifLoadFails);
+  loadCategories(whenCategoriesLoad, ifLoadFails);
+  loadElements(whenElementsLoad, ifLoadFails);
 };
 
 module.exports = {

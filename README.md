@@ -9,7 +9,7 @@
   - export initializer
 5. main.js file -- require data-gatekeeper + call initializer
 6. console.log and see that categories are printing there
-7. QUESTION: i see it printing and am wondering again what parse does. it appears to be an object, just like it is in the json file.
+7. QUESTION: i see it printing want to be clear on 'parse'. the console printings look like arrays of objects--not the object of an array of objects in the jsons. is this how parse changes them?
 ## Description
 This project is a website that is more involved than past projects and requires thorough planning. Project cards are important, as they articulate the plan. The site user is a movie producer who needs to decide if a movie can be made within a given budget. The producer chooses elements and then finds out if the budget will accommodate those elements.
 

@@ -1,4 +1,4 @@
-const callCategories = (successFunction, errorFunction) => {
+const loadCategories = (successFunction, errorFunction) => {
   const myRequest = new XMLHttpRequest();
   myRequest.addEventListener('load', successFunction);
   myRequest.addEventListener('error', errorFunction);
@@ -6,4 +6,4 @@ const callCategories = (successFunction, errorFunction) => {
   myRequest.send();
 };
 
-module.exports = callCategories;
+module.exports = loadCategories;
