@@ -9,7 +9,9 @@ const domString = (cats, els) => {
   cats.forEach((category) => {
     domString += `<h3>${category.name}</h3>`;
     els.forEach((element) => {
-      domString += `<h4>${element.name}</h4>`;
+      if (category.id === element.categoryid) {
+        domString += `<h4>${element.name}</h4>`;
+      }
     });
   });
   return domString;
