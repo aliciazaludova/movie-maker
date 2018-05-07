@@ -5,13 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Movie Maker</title>
+  <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
-  <h1>MOVIE MAKER</h1>
-    <div id="elements"></div>
-  
+    <div class="container">
+
+    <header class="row">
+      <div class="col-sm-8">
+        <h1>MOVIE MAKER</h1>
+      </div>
+      <div class="col-sm-4">
+        <div class="input-group input">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+               <button class="btn btn-default" type="button">Set budget</button>
+          </span>
+        </div>
+       </div>
+    </header>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="progress">
+          <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+      </div>
+    </div>
+
+    <div class="col-container">
+      <section id="left-column" class="col col-sm-9">
+        <div id="elements"></div>
+      </section>
+    
+      <section id="right-column" class="col col-sm-3">
+        <h3>Budget Applied</h3>
+        <h4 class="budget-applied">$0</h4>
+      </section>
+    </div>
+
+  </div>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

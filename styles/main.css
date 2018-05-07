@@ -4,10 +4,46 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Stylish', sans-serif;
 }
 
 h1 {
   color: rgb(255, 247, 0);
+  font-size: 6em;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.input {
+  padding-bottom: 0;
+}
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+
+.col {
+  padding: 15px 30px;
+}
+
+#left-column {
+  border: 10px dotted rgb(255, 247, 0);
+}
+
+#right-column {
+  border: 10px dotted rgb(255, 247, 0);
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2em;
 }
 
 .check-box {
@@ -18,4 +54,5 @@ h1 {
 .element-label {
   margin-left: 10px;
   display: inline;
+  font-size: 1.5em;
 }

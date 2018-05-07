@@ -74,25 +74,25 @@
     },
     {
       "id": "element12",
-      "name": "Animated Elephant",
+      "name": "Animated elephant",
       "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element13",
-      "name": "Model of Alien Ship",
+      "name": "Model of alien ship",
       "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element14",
-      "name": "Matte Painting of Outer Space",
+      "name": "Matte painting of outer space",
       "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element15",
-      "name": "Composite of Wild Lion on Real Meadow",
+      "name": "Realistic composite of lion in meadow",
       "categoryid": "category4",
       "cost": 1000
     }
