@@ -50,49 +50,49 @@
     },
     {
       "id": "element8",
-      "name": "Farm in Wimpstone, Warwickshire",
+      "name": "Farm",
       "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element9",
-      "name": "Pond in Wimpstone, Warwickshire",
+      "name": "Pond",
       "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element10",
-      "name": "Field in Wimpstone, Warwickshire",
+      "name": "Field",
       "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element11",
-      "name": "Woods in Wimpstone, Warwickshire",
+      "name": "Woods",
       "categoryid": "category3",
       "cost": 1000
     },
     {
       "id": "element12",
-      "name": "Animated Elephant",
+      "name": "Animated elephant",
       "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element13",
-      "name": "Model of Alien Ship",
+      "name": "Model of alien ship",
       "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element14",
-      "name": "Matte Painting of Outer Space",
+      "name": "Matte painting of outer space",
       "categoryid": "category4",
       "cost": 1000
     },
     {
       "id": "element15",
-      "name": "Composite of Wild Lion on Real Meadow",
+      "name": "Realistic composite of lion in meadow",
       "categoryid": "category4",
       "cost": 1000
     }

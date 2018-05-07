@@ -9,7 +9,16 @@
   - export initializer
 5. main.js file -- require data-gatekeeper + call initializer
 6. console.log and see that categories are printing there
-7. QUESTION: i see it printing want to be clear on 'parse'. the console printings look like arrays of objects--not the object of an array of objects in the jsons. is this how parse changes them?
+7. QUESTION: i see them printing want to be clear on 'parse'. the console printings look like arrays of objects--not the object of an array of objects in the jsons. is this how parse changes them?
+8. console.log and see that elements are printing there
+9. created div in index with id--print elements to dom 
+10. created domString to print categories and elements to dom
+11. the dom pulls from the data.js file--the 'get' functions
+12. created data.js
+13. QUESTION: i need a better understanding of set and get and why the categories = [] is not enough to set into an array
+14. data-gatekeeper must now require data.js and dom-elements.js because functions from them are called in the load function there
+13. QUESTION: here is where i get confused. and why take the loadElements function and put it in whenCategoriesLoad function? can't they both be in the initializer? 
+
 ## Description
 This project is a website that is more involved than past projects and requires thorough planning. Project cards are important, as they articulate the plan. The site user is a movie producer who needs to decide if a movie can be made within a given budget. The producer chooses elements and then finds out if the budget will accommodate those elements.
 
