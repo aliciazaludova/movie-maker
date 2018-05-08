@@ -2,6 +2,7 @@ const loadCategories = require('./xhr-categories');
 const loadElements = require('./xhr-elements');
 const data = require('./data');
 const domElements = require('./dom-elements');
+const addCheckListener = require('./events');
 
 // required the files xhr-categories and xhr-elements as they are parsed below
 // the functions below are the arguments passed through the calls for the xhr functions
@@ -23,6 +24,7 @@ const whenElementsLoad = function () {
   const elementsData = JSON.parse(this.responseText).elements;
   data.setElements(elementsData);
   domElements();
+  addCheckListener();
 };
 
 const ifLoadFails = function () {
