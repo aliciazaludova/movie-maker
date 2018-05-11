@@ -3,8 +3,9 @@
 let categories = [];  //
 let elements = [];
 const selections = [];
+let budget = 0;
 
-// sets up the array to pass stuff into it
+// the array needs a function in order to pass stuff into it
 const setCategories = (categoriesArray) => {
   categories = categoriesArray;
 };
@@ -22,9 +23,9 @@ const getElements = () => {
   return elements;
 };
 
-// one at a time selections get added
-// push them here because it's the setter
-// not redefining it, but adding to it. that is why 'const' above
+// one at a time selections get added--each time box is checked
+// push each one here because it's the setter--setting into array
+// not redefining it, but adding to it. that is why above it is const = selections above
 const setSelections = (selectionsObject) => {
   selections.push(selectionsObject);
 };
@@ -34,6 +35,14 @@ const getSelections = () => {
   return selections;
 };
 
+const setBudget = (budgetFromUser) => {
+  budget = budgetFromUser;
+};
+
+const getBudget = () => {
+  return budget;
+};
+
 module.exports = {
   setCategories,
   getCategories,
@@ -41,4 +50,6 @@ module.exports = {
   getElements,
   setSelections,
   getSelections,
+  setBudget,
+  getBudget,
 };

@@ -13,9 +13,8 @@ const whenCategoriesLoad = function () {
   const categoryData = JSON.parse(this.responseText).categories;
   // data is the variable that holds anything you export from data.js
   data.setCategories(categoryData);
-  // the loadElements function is probably calling the getCategories
-  // took this out of initializer and put here in load function
-  // it goes here because you are saying don't start the loadElements load until the whenCategoriesLoad function has started loading
+  // took loadElements func out of initializer and put here in load function
+  // it goes below because you are saying don't start the loadElements load until the whenCategoriesLoad function has started loading
   // in console go to networks to see order of loading. you can see that now loadElements loads just after whenCategoriesLoad
   loadElements(whenElementsLoad, ifLoadFails);
 };
