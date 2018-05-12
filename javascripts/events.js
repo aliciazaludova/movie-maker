@@ -1,9 +1,21 @@
 const data = require('./data');
 const printSelectionsToDom = require('./dom-print-selections');
 
-// const budgetBtn = document.getElementById('budgetButton');
+const addBudgetListener = () => {
+  const budgetButton = document.getElementById('budget-submit-button');
+  console.log(budgetButton);
+  budgetButton.addEventListener('click', getBudget);
+  // the event listener on the button selects the input and takes the value
+};
 
-// const selections = [];
+const getBudget = (e) => {
+  e.preventDefault(); // prevents page refresh that is default of form submission
+  const getBudgetValue = document.getElementById('entered-budget').value;
+  data.setBudget(getBudgetValue);
+  const budget = data.getBudget();
+  const budgetOutputDiv = document.getElementById('budget-amount');
+  budgetOutputDiv.innerHTML = `$${budget}`; // need to ask about this
+};
 
 // nothing is passed through because doesn't need input; getting element happens anyway
 // don't want this function to do anything but add event listener to each checkbox
@@ -17,7 +29,7 @@ const addCheckListener = () => {
   }
 };
 
-// this is the callback; the event listener
+// this is the callback; the event listener is activated here after click
 const checkedEvents = (e) => {
   console.log('e.target:', e.target);
   // store elements into variable
@@ -28,9 +40,13 @@ const checkedEvents = (e) => {
       // setSelections is taking the object (elements[j]) and adding it to the array that exists in data
       data.setSelections(elements[j]); // the .push() is in setSelections function in data
       console.log(data.getSelections());
+      data.setElementCost(elements[j].cost);
     };
   };
   printSelectionsToDom(data.getSelections());
 };
 
-module.exports = addCheckListener;
+module.exports = {
+  addCheckListener,
+  addBudgetListener,
+};

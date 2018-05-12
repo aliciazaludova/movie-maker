@@ -4,6 +4,7 @@ let categories = [];  //
 let elements = [];
 const selections = [];
 let budget = 0;
+let cost = 0;
 
 // the array needs a function in order to pass stuff into it
 const setCategories = (categoriesArray) => {
@@ -35,12 +36,22 @@ const getSelections = () => {
   return selections;
 };
 
+// budget set above to 0 -- this sets it to whatever budget the user enters
 const setBudget = (budgetFromUser) => {
   budget = budgetFromUser;
 };
 
 const getBudget = () => {
   return budget;
+};
+
+// establishing cost as a number -- multiplying by 1 does this i think
+const setElementCost = (movieCost) => {
+  cost += movieCost * 1;
+};
+
+const getElementCost = () => {
+  return cost;
 };
 
 module.exports = {
@@ -52,4 +63,6 @@ module.exports = {
   getSelections,
   setBudget,
   getBudget,
+  setElementCost,
+  getElementCost,
 };
