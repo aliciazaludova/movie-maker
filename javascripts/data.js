@@ -3,8 +3,10 @@
 let categories = [];  //
 let elements = [];
 const selections = [];
+let budget = 0;
+let cost = 0;
 
-// sets up the array to pass stuff into it
+// the array needs a function in order to pass stuff into it
 const setCategories = (categoriesArray) => {
   categories = categoriesArray;
 };
@@ -22,9 +24,9 @@ const getElements = () => {
   return elements;
 };
 
-// one at a time selections get added
-// push them here because it's the setter
-// not redefining it, but adding to it. that is why 'const' above
+// one at a time selections get added--each time box is checked
+// push each one here because it's the setter--setting into array
+// not redefining it, but adding to it. that is why above it is const = selections above
 const setSelections = (selectionsObject) => {
   selections.push(selectionsObject);
 };
@@ -34,6 +36,24 @@ const getSelections = () => {
   return selections;
 };
 
+// budget set above to 0 -- this sets it to whatever budget the user enters
+const setBudget = (budgetFromUser) => {
+  budget = budgetFromUser;
+};
+
+const getBudget = () => {
+  return budget;
+};
+
+// establishing cost as a number -- multiplying by 1 does this i think
+const setElementCost = (movieCost) => {
+  cost += movieCost * 1;
+};
+
+const getElementCost = () => {
+  return cost;
+};
+
 module.exports = {
   setCategories,
   getCategories,
@@ -41,4 +61,8 @@ module.exports = {
   getElements,
   setSelections,
   getSelections,
+  setBudget,
+  getBudget,
+  setElementCost,
+  getElementCost,
 };

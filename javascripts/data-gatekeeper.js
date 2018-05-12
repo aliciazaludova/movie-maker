@@ -2,7 +2,7 @@ const loadCategories = require('./xhr-categories');
 const loadElements = require('./xhr-elements');
 const data = require('./data');
 const domElements = require('./dom-elements');
-const addCheckListener = require('./events');
+const events = require('./events');
 
 // required the files xhr-categories and xhr-elements as they are parsed below
 // the functions below are the arguments passed through the calls for the xhr functions
@@ -13,9 +13,8 @@ const whenCategoriesLoad = function () {
   const categoryData = JSON.parse(this.responseText).categories;
   // data is the variable that holds anything you export from data.js
   data.setCategories(categoryData);
-  // the loadElements function is probably calling the getCategories
-  // took this out of initializer and put here in load function
-  // it goes here because you are saying don't start the loadElements load until the whenCategoriesLoad function has started loading
+  // took loadElements func out of initializer and put here in load function
+  // it goes below because you are saying don't start the loadElements load until the whenCategoriesLoad function has started loading
   // in console go to networks to see order of loading. you can see that now loadElements loads just after whenCategoriesLoad
   loadElements(whenElementsLoad, ifLoadFails);
 };
@@ -24,7 +23,8 @@ const whenElementsLoad = function () {
   const elementsData = JSON.parse(this.responseText).elements;
   data.setElements(elementsData);
   domElements();
-  addCheckListener();
+  events.addCheckListener();
+  events.addBudgetListener();
 };
 
 const ifLoadFails = function () {
